@@ -33,7 +33,7 @@ function parseCSV(filename) {
 				console.log(jsonArrayObj);
 				for (var i = 0; i < jsonArrayObj.length; i++) {
 					console.log(jsonArrayObj[i]);
-					db.ref('Shelters/' + jsonArrayObj[i].Key).push(jsonArrayObj[i].value).catch((error) => {
+					db.ref('Shelters/' + jsonArrayObj[i].Key).push(jsonArrayObj[i]).catch((error) => {
 						return console.log(error);
 					});
 					console.log("Done");
