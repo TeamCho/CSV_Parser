@@ -1,0 +1,25 @@
+{
+  "name": "csv_parser",
+  "version": "1.0.0",
+  "description": "Parses CSVs and writes to Firebase",
+  "main": "csv_parser.js",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "firebase": "^4.10.1",
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node csv_parser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamCho/CSV_Parser.git"
+  },
+  "author": "Rahul Zhade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamCho/CSV_Parser/issues"
+  },
+  "homepage": "https://github.com/TeamCho/CSV_Parser#readme"
+}
